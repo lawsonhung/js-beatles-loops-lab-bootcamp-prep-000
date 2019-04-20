@@ -21,7 +21,7 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
-function iLovetheBeatles(num) {
+function iLoveTheBeatles(num) {
   var array = [];
   
   if (num >= 15){
