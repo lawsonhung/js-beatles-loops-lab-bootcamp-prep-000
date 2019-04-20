@@ -24,11 +24,15 @@ function johnLennonFacts(facts) {
 function iLovetheBeatles(num) {
   var array = [];
   
-  do {
-    num++;
-    array.push("I love the Beatles!");
+  if (num >= 15){
+    return array;
+  } else {
+    do {
+      num++;
+      array.push("I love the Beatles!");
     } 
     while (num < 15);
+  }
     
     return array;
 }
